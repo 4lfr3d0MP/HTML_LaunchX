@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-explorer">
+    <meta name="Viewport" content="width=device-width , initial-scale=1.0" > 
+    <title>Pasteleria Full Stack</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+
+<body>
+
+<h1 class="lines-effect">Pasteleria Full Stack. </h1>
+<h2> Le damos un poco de todo. </h2>
+
+<header class="Cabecera">
+    <nav class="Barra">
+        <a class="Logo">
+        
+            <img src="./logo.png" alt="logo Pasteleria" width="50" height="50   " >
+       
+        </a>
+        <ul class="Menu">
+            <li><a href="#Sabores">Sabores de pasteles</a></li>
+            <li><a href="#Adornos">Adornos</a></li>
+            <li><a href="#Pedido">Realice su pedido</a></li>
+            <li><a href="#Acerca">Acerca de...</a></li>
+            <li><a href="#Pastelero">Informacion pastelero</a></li>
+        
+        </ul>
+    </nav>
+    
+
+</header>
+
+
+    <section  id="Sabores">
+        <h3>Sabores</h3>
+        <ul>
+            
+            <p>Actualmente disponibles:</p>
+            
+            <li>Chocolate.</li>
+            <img class="img_sabor" src="./Choco.jpg" alt="Chocolate" height="200px" width="200" >
+            <p>Precio: 550 Mxn. (cada combinacion cuesta 50MXN extra)</p>
+            <li>Vainilla.</li>
+            <img class="img_sabor" src="./vainilla.jpg" alt="Vainilla" height="200" width="200">
+            <p>Precio: 450 Mxn. (cada combinacion cuesta 50MXN extra)</p>
+            <li>Fresa.</li>
+            <img class="img_sabor" src="./fresa.jpg" alt="Cafe" height="200" width="200">
+            <p>Precio: 350 Mxn. (cada combinacion cuesta 50MXN extra)</p>
+            <li>Cafe.</li>
+            <img class="img_sabor" src="./cafe.png" alt="Tres leches" height="200" width="200">
+            <p>Precio: 350 Mxn. (cada combinacion cuesta 50MXN extra)</p>
+            <li>Tres leches.</li>
+            <img class="img_sabor" src="./3_leches.jpg" alt="Fresa" height="200" width="200">
+            <p>Precio: 550 Mxn. (cada combinacion cuesta 50MXN extra)</p>
+            <li>Coco.</li>
+            <img class="img_sabor" src="./coco.jpg" alt="Coco" height="200" width="200">
+            <p>Precio: 550 Mxn. (cada combinacion cuesta 50MXN extra)</p>
+            <li>Queso.</li>
+            <img class="img_sabor" src="./queso.jpg" alt="Queso" height="200" width="200">
+            <p>Precio: 450 Mxn. (cada combinacion cuesta 50MXN extra)</p>
+            <li>Galleta.</li>
+            <img class="img_sabor" src="./galleta.jpg" alt="Galleta" height="200" width="200">
+            <p>Precio: 350 Mxn. (cada combinacion cuesta 50MXN extra) </p>
+        </ul>
+    </section>
+    
+    <section id="Adornos">
+        <h3>Adornos para pasteles.</h3>
+        <p>Disponibles: </p>
+        <ul>
+            <li>Letras</li>
+            <img class="img_sabor" src="./letras.jpg" alt="Letras height="200" width="200">
+            <p>Precio por combinacion extra: 40 MXN.</p>
+            <li>Brillos</li>
+            <img class="img_sabor" src="./brillos.jpg" alt="Brillos" height="200" width="200">
+            <p>Precio por combinacion extra: 40 MXN.</p>
+            <li>Frutas</li>
+            <img class="img_sabor" src="./frutas.png" alt="Frutas height="200" width="200">
+            <p>Precio por combinacion extra: 40 MXN.</p>
+            <li>Figuras</li>
+            <img class="img_sabor" src="./figuras.jpg" alt="Figuras" height="200" width="200">
+            <p>Precio por combinacion extra: 40 MXN.</p>
+          
+        </ul>
+    </section>
+<form action="" method="get" name="registro">    
+    <section id="Pedido" class="Fondo_formu">
+        <h3>Haga su pedido aqui: </h3>
+        <p>Nombre del solicitante: <input type="text "  id="Nombre1" name="Nombre1" class="color" > </p>
+        <p>Correo electronico: <input type="email" id="correo1" name="correo1" class="color" > </p>
+        <p>Telefono celular: <input  type="tel" id="tel1" name="tel1" maxlength="10" class="color"></p>
+        
+        <div  > 
+            <p>Escoga el sabor de su pastel y sus combinaciones de ser necesario: </p>
+            <input  class="Cvalores" type="checkbox" id="Choco" value="Chocolate" >Chocolate.
+            <input  class="Cvalores" type="checkbox" id="Vainilla" value="Vainilla">Vainilla.
+            <input  class="Cvalores" type="checkbox" id="fresa" value="Fresa">Fresa.
+            <input  class="Cvalores" type="checkbox" id="Cafe" value="Cafe">Cafe.
+            <input  class="Cvalores" type="checkbox" id="3_leches" value="3 leches">3 leches.
+            <input  class="Cvalores" type="checkbox" id="coco" value="Coco">Coco.
+            <input  class="Cvalores" type="checkbox" id="queso" value="Queso">Queso.
+            <input  class="Cvalores" type="checkbox" id="galleta" value="Galleta">Galleta.
+            <p>Escoga los adornos de su pastel y sus combinaciones de ser necesario: </p>
+            <input class="Adornos" type="checkbox" id="letras" value="Letras" >Letras.
+            <input class="Adornos" type="checkbox" id="figuras" value="Figuras">Figuras.
+            <input class="Adornos" type="checkbox" id="brillos" value="Brillos">Brillos.
+            <input class="Adornos" type="checkbox" id="frutas" value="Frutas">Frutas.
+        </div>
+        <p>Descripcion de su pastel (describalo detalladamente):</p>
+        <textarea class="color" name="texto" id="texto" rows="4" cols="40"></textarea>
+        <br>
+        <input class="color" type="button" value="Enviar" onclick="obtener()" id="boton">
+        <input class="color" type="reset" value="Borrar Todo">
+    
+    
+    
+    
+    
+    </section>
+
+    
+    <section id="Pastelero"> 
+        <h3>Pastelero, informacion general del pedido:</h3>
+        <script type="text/javascript">
+            function obtener()
+            {
+                var nombre = document.getElementById('Nombre1').value;
+                var correo = document.getElementById('correo1').value;
+                var celular= document.getElementById('tel1').value;
+                
+                var texto= document.getElementById('texto').value;
+
+                document.registro.nombreobtenido.value = nombre;
+                document.registro.correoobtenido.value = correo;
+                document.registro.celularobtenido.value=celular;
+                document.registro.obtenertexto.value=texto;
+
+                var boton= document.getElementById('boton');
+                var lista= document.getElementById('lista');
+                var sabores= document.querySelectorAll('.Cvalores');
+                var adornos= document.querySelectorAll('.Adornos');
+
+                boton.addEventListener('click',function(){
+                    lista.innerHTML='';
+                    sabores.forEach((itera)=>{
+                        if(itera.checked==true)
+                        {
+                            
+                            var elemnt= document.createElement('li');
+                            elemnt.className= 'Lista_G_valo';
+                            elemnt.innerHTML= itera.value;
+                            lista.appendChild(elemnt);
+                        }
+
+                    });
+
+                    adornos.forEach((itera2)=>{
+                        if(itera2.checked==true)
+                        {
+                            
+                            var elemnt2= document.createElement('li');
+                            elemnt2.className= 'Lista_H_valo';
+                            elemnt2.innerHTML= itera2.value;
+                            lista2.appendChild(elemnt2);
+                        }
+
+                    });
+
+                });
+
+            }
+        </script>
+
+        <table border="1">
+            <tr>
+                <td>Nombre:</td><td><input  type="text" name="nombreobtenido" id="nombreobtenido" class="color"></td>
+            </tr>	
+            <tr>
+                <td>correo:</td><td><input type="email" name="correoobtenido" id="correoobtenido" class="color"  ></td>
+            </tr>
+            <tr>
+                <td>Numero:</td> <td><input   type="tel" name="celularobtenido" id="celularobtenido" class="color"></td> 
+            </tr>
+            <tr>
+                <td>Descripcion del pastel:</td> <td><textarea type="text" name="obtenertexto" id="obtenertexto" class="color"  ></textarea></td>
+            </tr>
+            <tr>
+                <td>Sabores elegidos</td> <td><ul id="lista" class="Lista_G" class="color"></ul></td>
+            </tr>
+            <tr>
+                <td>Adornos elegidos</td> <td><ul id="lista2" class="Lista_H" class="Color"></ul> </td>
+            </tr>
+            </table>
+        
+        </form>
+    </section>
+
+    <section id ="Acerca">
+        <div class="Direc">
+            <h3>Direccion del establecimiento: </h3>
+            <h3>Boulevard Puerto Aéreo 34,Venustiano Carranza </h3>
+            <h3>Valentin Gomez Farías,15010,Ciudad de México, CDMX.</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21285.655302175517!2d-99.09619329616497!3d19.42072200856328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fc1da73676bb%3A0x10bfd626052ab4a!2sPasteler%C3%ADas%20Esperanza%20(Blvd.%20Puerto%20A%C3%A9reo)!5e0!3m2!1ses!2smx!4v1646677915469!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <h3>Horarios de atención: Lunes a Sabado de 9:00 AM a 5 PM </h3>
+            <h3>Telefono: 01-800-3635-2025</h3>
+        </div>
+    </section>
+
+
+</body>
+
+
+</html>
+
+
+
+
+
