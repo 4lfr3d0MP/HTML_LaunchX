@@ -1,0 +1,144 @@
+*{
+    color:white;
+}
+body{
+    position: relative;
+    background-image:url('fondo_web.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    font-family:'Dancing script',cursive;
+    
+}
+
+.centrar{
+    display: grid;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+
+
+
+h3{
+    font-weight: bold;
+    font: size 25px;
+}
+
+
+
+
+
+
+
+.Sabores{
+    background-color: #ffffff7c;
+    position: absolute;
+    top: 40%;
+    left:40%;
+    font-size: 18Px;
+    align-items: left;
+
+    
+
+
+}
+
+.cont_paste{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 23px;
+    align-items: center;
+    background-color: #e9dcdc3f;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cont_paste2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 23px;
+    align-items: center;
+    background-color: #e9dcdc3f;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.img_sabor{
+    padding: 15px;
+
+}
+
+.Cabecera{
+position: relative;
+box-shadow: 0 3px 6px;
+background-color: #78cc3365;
+position: fixed;
+left: 30%;
+top: 0;
+}
+
+.p{
+    background-color: #a5a0a085;
+    size: auto;
+}
+.Barra{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+max-width: 980px;
+margin: 0 auto;
+
+}
+
+.Logo{
+display: flex;
+align-items: center;
+}
+.Logo img{
+    border-radius: 50%;
+}
+
+.Menu{
+    display: flex;
+    list-style:none ;
+    margin: 0;
+    padding:0;
+
+}
+
+.Menu li{
+    padding: 0 15px;
+}
+
+.Menu a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+
+}
+
+.color{
+    color:black;
+}
+
+.Fondo_formu{
+    background-color: #e9dcdc3f;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.Direc{
+    align-items: flex-end;
+}
+
+
+
