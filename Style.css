@@ -11,51 +11,31 @@ body{
     
 }
 
-h1{
-    position: absolute;
-    background-color: #e7d8b100;
-    top: 55px;
-    left: 65%;
-    
-    font-size :40px;
-    display: inline-block;
+.centrar{
+    display: grid;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
 
-}
-h2{
-    position: absolute;
-    background-color:#e7d8b100;
-    top: 120px;
-    left: 65%;
-    font-size :20px;
-}
+
+
 
 h3{
     font-weight: bold;
     font: size 25px;
 }
 
-h1:hover::before,h1:hover::after{
-    transform:scale(1);
-}
 
-h1::after,h1::before {
-    content: '';
-    position: absolute;
-    width: 120px;
-    height: 3px;
-    background-color:black;
-    top: 0.8em;
-    transform: scale(0);
-    transition:all 0.5s ease-in;
 
-}
 
-h1::after{
-    left: -140px;
-}
-h1::before{
-    right:-140px;
-}
+
+
 
 .Sabores{
     background-color: #ffffff7c;
@@ -65,6 +45,31 @@ h1::before{
     font-size: 18Px;
     align-items: left;
 
+    
+
+
+}
+
+.cont_paste{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 23px;
+    align-items: center;
+    background-color: #e9dcdc3f;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cont_paste2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 23px;
+    align-items: center;
+    background-color: #e9dcdc3f;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .img_sabor{
@@ -126,9 +131,14 @@ align-items: center;
 }
 
 .Fondo_formu{
-    background-color: #2b2929b7;
+    background-color: #e9dcdc3f;
+    padding: 10px;
+    border-radius: 10px;
+    
 }
 .Direc{
     align-items: flex-end;
 }
+
+
 
